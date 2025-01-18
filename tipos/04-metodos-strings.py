@@ -1,0 +1,12 @@
+animal = " CHanchito feliz "
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("ch"))
+print(animal.replace("feliz", "triste"))
+print("nch" in animal)
+print("nch" not in animal)
