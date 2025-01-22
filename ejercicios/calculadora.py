@@ -6,7 +6,7 @@ n1 = int(input("ingrese el primer numero:"))
 ope = input("ingrese la operacion que desea realizar:")
 n2 = int(input("ingrese el segundo numero:"))
 
-if n1 == input(""):
+if not n1:
     print("ingrese un numero")
 
 else:
@@ -30,7 +30,7 @@ while True:
         resaltado = resaltado + n2
         print("el resultado es:", resaltado)
     elif ope == "resta":
-        resaltado = resaltado - n2
+        resaltado1 = resaltado - n2
         print("el resultado es:", resaltado)
     elif ope == "multi":
         resaltado = resaltado * n2
