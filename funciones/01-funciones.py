@@ -1,4 +1,4 @@
-def hola(nombre, apellido="feliz"):  # parametros #PARAMETROS OPCIONALES
+def hola(nombre, apellido="feliz"):  # parametros #PARAMETROS OPCIONALES #argumentos
     print("Hola mundo")
     print(f"Bienvenido {nombre}, {apellido}")
 
