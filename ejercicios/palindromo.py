@@ -1,14 +1,19 @@
+print("escriba una palabra para saber si es palindromo")
+
+
 def palindromo(texto):
-    texto = texto.remplace(" ", "")
-    texto = texto.lower()
+
+    while True:
+        texto = texto.replace(" ", "").lower()
+
+        if texto == texto[::-1]:
+            return (f"{texto}, es palindromo")
+
+        if texto != texto[::-1]:
+            return (f"{texto}, no es palindromo")
+
+        if texto.lower() == "salir":
+            break
 
 
-while True:
-
-    print("escriba una palabra para saber si es palindromo")
-    text = text.remplace(" ", "")
-    text = text.lower()
-    text = input("escriba una palabra:")
-    if text.lower() == "salir":
-        break
-    print(text)
+print(palindromo(input("escriba una palabra: ")))
