@@ -6,8 +6,8 @@ mascotas[0] = 'gato'
 # print(mascotas[-1])
 # print(mascotas[::2])
 
-numeros = list(range(1, 21))
-print(numeros[::2])
+# numeros = list(range(1, 21))
+# print(numeros[::2])
 
 numeros = list(range(21))
 print(numeros[1::2])
